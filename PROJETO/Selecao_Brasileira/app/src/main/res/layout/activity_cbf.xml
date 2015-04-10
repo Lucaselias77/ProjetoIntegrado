@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lucas.selecao_brasileira.cbf"
+    android:id="@+id/cbf"
+    android:background="@drawable/teste">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView104" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="              História da CBF"
+            android:id="@+id/textView99"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView100"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="A Confederação Brasileira de Futebol (CBF) é a entidade máxima do futebol no Brasil. Fundada em 20 de agosto de 1914, antiga CBD , a atual CBF é responsável pela organização de campeonatos de alcance nacional, como o Campeonato Brasileiro das séries A, B, C e D, além da Copa do Brasil. Também administra a Seleção Brasileira de Futebol Masculino, cinco vezes campeã mundial, e a Feminina, duas vezes vice-campeã mundial."
+            android:id="@+id/textView101"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView107" />
+
+        <TextView
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="A CBF é uma associação privada cuja principal atividade econômica é a produção e promoção de eventos esportivos. A ela respondem as Federações estaduais (e distrital, no caso do DF), responsáveis pelos campeonatos em cada Unidade da Federação. Sua sede localiza-se na Barra da Tijuca, na cidade do Rio de Janeiro. A Confederação também pertence um centro de treinamento localizado em Teresópolis, a Granja Comary."
+            android:id="@+id/textView102"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView108" />
+
+        <TextView
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="A CBF, tal como existe hoje, foi fundada em 24 de setembro de 1979 . Antes disso, o futebol, como os demais esportes praticados em território brasileiro, não era modalidade esportiva organizada, sendo até então gerido por uma entidade que aglutinava todos os esportes olímpicos, a Confederação Brasileira de Desportos (CBD), incluindo o futebol."
+            android:id="@+id/textView103"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView105" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voltar"
+            android:id="@+id/btnvoltar"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView106" />
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
